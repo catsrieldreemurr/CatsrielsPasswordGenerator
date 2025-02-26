@@ -1,0 +1,203 @@
+body{
+    background-color: #243642; /*243642 */
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #387478; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    margin: 0;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #387478;
+    float: left;
+}
+
+nav p {
+    background-color: #387478;
+    padding: 12px 16px;
+    margin: 0;
+    font-weight: bold;
+    float: left;
+    color: white;
+}
+
+nav li a:hover{
+    background-color: #243642;
+}
+
+section{
+    margin: 10px;
+}
+
+#startSection{
+    text-align: center;
+    margin-top: 25%;
+}
+
+#infoSection{
+    margin-top: 17%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#divStorage{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.showRight{
+    justify-content: center;
+    width: 49%;
+    height: auto;
+}
+
+.showLeft{
+    justify-content: center;
+    width: 49%;
+    height: auto;
+}
+
+.container{
+    background-color: #387478;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.container p {
+    text-align: left;
+}
+
+.highlight{
+    font-weight: bold;
+}
+
+.paragraphSpace{
+    margin-top: 50px;
+}
+
+#optionsMenu{
+    border: solid white 1px;
+    width: 25%;
+    height: 90vh;
+    float: left;
+}
+
+div{
+    padding: 10px;
+}
+
+#generate h2{
+    text-align: center;
+    margin: 10px;
+}
+
+#generate button{
+    padding: 5px;
+    background-color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: solid white 1px;
+    border-radius: 5px;
+
+    color: white;
+}
+
+#generate button:hover{
+    background-color: lightcoral;
+}
+
+.setWidth{
+    width: 30%;
+}
+
+#generateMain{
+    margin: 0 auto;
+}
+
+#buttonscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonscontainer button{
+    background-color: white;
+    color: black;
+    margin: 5px;
+}
+
+#passField{
+    text-align: left;
+    justify-content: left;
+    text-wrap: wrap;
+}
+
+.colorRed{
+    color: red;
+}
+
+.colorLime{
+    color: lime;
+}
+
+footer{
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #startSection{
+        margin-top: 50%;
+    }
+
+    #infoSection{
+        margin-top: 80%;
+    }
+
+    #divStorage{
+        display: block;
+    }
+
+    .container{
+        width: 100%;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    #optionsMenu {
+        width: 95%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .setWidth{
+        width: 95%;
+    }
+}
